@@ -1,0 +1,53 @@
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="signup">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link rel="stylesheet" type="text/css" href="css_files/signup.css">
+</head>
+<body class="background_color">
+    <div id="signup">
+        <div class="container">
+            <div id="signup-row" class="row justify-content-center align-items-center">
+                <div id="signup-column" class="col-md-6">
+                    <div id="signup-box" class="col-md-12">
+                        <form id="signup-form" class="form" action="/rezervacii/welcome.php" method="post">
+                            <h3 class="text-center text-info">Sign up and book for free!</h3>
+                            <div class="form-group">
+                                <label for="first_name" class="text-info">First name</label><br>
+                                <input type="text" name="first_name" id="first_name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name" class="text-info">Last name</label><br>
+                                <input type="text" name="last_name" id="last_name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="text-info">Email Address</label><br>
+                                <input type="text" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Username</label><br>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password</label><br>
+                                <input type="password" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm_password" class="text-info">Confirm password</label><br>
+                                <input type="password" name="confirm_password" id="confirm_password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="remember-me" class="text-info"><span><input id="remember-me" name="remember-me" type="checkbox"></span><span> I agree with Book.me <a href="#">Terms and Services</a> and <a href="#">Privacy policy</a></span></label><br>
+                                <button type="submit" name="submit" class="btn btn-info btn-md" value="Submit" action="index.php">Submit</button>
+                            </div>
+                            <div id="register-link" class="text-right">
+                                <text>Already have a registration?  </text><a href="login.php" class="text-info">Log in</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

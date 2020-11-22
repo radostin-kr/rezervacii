@@ -17,5 +17,3 @@ class Db {
         }
     }
 }
-
-$db = new Db();
